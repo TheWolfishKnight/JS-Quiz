@@ -1,0 +1,48 @@
+#quiz-container, #results-container {
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Hide the results container initially */
+  #results-container {
+    display: none;
+  }
+  
+  /* Define styles for the start and high scores buttons */
+  #start-button, #high-scores-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Define styles for the score and timer elements */
+  #score, #timer {
+    font-size: 30px;
+    margin: 20px;
+  }
+  
+  /* Define styles for the question and options elements */
+  #question, #options {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  /* Define styles for the final score and high score elements */
+  #final-score, #high-score {
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  .quiz-button.hidden {
+    display: none;
+  }
